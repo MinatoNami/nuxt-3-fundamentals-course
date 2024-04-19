@@ -11,7 +11,11 @@ export default defineNuxtConfig({
         },
       },
     ],
+    "@nuxt/image",
   ],
+  image: {
+    domains: ["m.media-amazon.com"],
+  },
   alias: {
     pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs",
   },
